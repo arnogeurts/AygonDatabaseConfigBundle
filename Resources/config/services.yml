@@ -1,0 +1,8 @@
+parameters:
+    database_config.config.class: Aygon\DatabaseConfigBundle\Config\DatabaseConfig
+    
+
+services:
+    config:
+        class: %database_config.config.class%
+        arguments: ['@doctrine', '%database_config.entity_manager%']

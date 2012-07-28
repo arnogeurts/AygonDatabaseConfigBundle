@@ -1,0 +1,21 @@
+{
+    "name": "aygon/database-config-bundle",
+    "type": "symfony-bundle",
+    "description": "Add database configuration to Symfony2",
+    "keywords": ["doctrine", "config", "configuration"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arno Geurts"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.2",
+        "aygon/doctrine-migrations-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Aygon\\DatabaseConfigBundle": "" }
+    },
+    "target-dir": "Aygon/DatabaseConfigBundle"
+}
